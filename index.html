@@ -3,22 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Sitio Web</title>
+    <title>Evento Click</title>
     <style>
-        #button-container {
-            padding: 5px;               
-            background-color: green;    
-            color: white;                
-            text-align: center;         
+        .contenedor {
+            padding: 5px;
+            background-color: green;
+            display: flex;
+            align-items: center;
+            justify-contentgit: center;
+        }
+        
+        .boton {
+            margin: 10px;
         }
     </style>
 </head>
 <body>
-    
-    <div id="button-container">
-        <button onclick="alert('Hola!')">Saludar</button>
+    <div class="contenedor">
+        <button class="boton">Saludar</button>
     </div>
-
+    
     <script src="eventos.js"></script>
 </body>
 </html>
